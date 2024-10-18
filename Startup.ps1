@@ -18,7 +18,7 @@ switch($selection.ToLower())
         }
     2
         {
-        $Global:ScriptRootURL = "https://raw.githubusercontent.com/WoodneyUK/OOBE/main"
+        $Global:ScriptRootURL = "https://raw.githubusercontent.com/Disordely/OperationGetSwifty/refs/heads/main/Main.ps1"
         }
     q
         {
