@@ -2,10 +2,10 @@
 Clear-Host
 write-host "USB Prod/Dev scripts selection"
 write-host "------------------------------"
-Write-Host "1 - [DEFAULT] Use Prod Script (From Azure)"
-Write-Host "2 - Engineering Team only - Use Dev (from Github)"
+Write-Host "1 - [DEFAULT] Use Prod Script"
+Write-Host "2 - Engineering Team only - Dev"
 Write-Host "Q - quit and restart"
-write-host "Note :  This is where deploy scripts run from and does not affect Windows DEV/UAT/PROD ring" 
+write-host "Note :  This is where deploy scripts run from and does not affect Windows DEV/UAT/PRD ring" 
 while($selection -notin @('1','2','Q'))
     {
     $selection = Read-Host "Enter selection [1,2,Q]"
